@@ -1,0 +1,12 @@
+#open("spt.txt","x")
+file=open("spt.txt","a")
+a=[]
+empname=input("employee name:")
+empage=int(input("employee age:"))
+empsalary=int(input("employee salary:"))
+a.append(empname)
+a.append(empage)
+a.append(empsalary)
+print(a)
+file.write(str(a)+"\n")
+file.close()
